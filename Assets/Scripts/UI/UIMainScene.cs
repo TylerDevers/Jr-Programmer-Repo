@@ -60,6 +60,10 @@ public class UIMainScene : MonoBehaviour
         }
     }
 
+    public void ReturnToMenu() {
+        SceneManager.LoadScene(0);
+    }
+
     public void SetNewInfoContent(IUIInfoContent content)
     {
         if (content == null)
